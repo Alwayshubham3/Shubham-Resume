@@ -12,33 +12,20 @@
             background-color: #f8f9fa;
         }
         .hero {
-            background: url('https://via.placeholder.com/1920x600.png?text=Ocean+Background') no-repeat center center;
-            background-size: cover;
+            background-color: #007bff;
             color: white;
-            padding: 50px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
+            padding: 50px 0;
+            text-align: center;
         }
-        .hero-content {
-            display: flex;
-            align-items: center;
-            text-align: left;
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-            border-radius: 10px;
-            color: white;
+        .hero h1 {
+            margin-bottom: 20px;
         }
         .hero img {
             border-radius: 50%;
             width: 150px;
             height: 150px;
             object-fit: cover;
-            margin-right: 20px;
-        }
-        .hero-details h1 {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .section-title {
             margin-top: 40px;
@@ -49,6 +36,9 @@
         .section-title:hover {
             color: #007bff;
             transform: scale(1.1);
+        }
+        .contact-info {
+            margin-bottom: 20px;
         }
         footer {
             background-color: #343a40;
@@ -90,13 +80,9 @@
 
     <!-- Hero Section -->
     <div class="hero">
-        <div class="hero-content">
-            <img src="/123.jpg" alt="Shubham Pandey">
-            <div class="hero-details">
-                <h1>Shubham Pandey</h1>
-                <p>Frontend Developer | MCA Graduate</p>
-            </div>
-        </div>
+        <img src="/123.jpg" alt="Shubham Pandey">
+        <h1>Shubham Pandey</h1>
+        <p>Frontend Developer | MCA Graduate</p>
     </div>
 
     <!-- About Section -->
@@ -111,12 +97,14 @@
         <ul>
             <li>Web Development: HTML, CSS, JavaScript, Bootstrap</li>
             <li>Programming Languages: C#</li>
+            <li>Frameworks/Libraries: jQuery , Tailwind CSS</li>
             <li>Database Management: Microsoft SQL Server (MSSQL), MySQL</li>
             <li>Design Tools: Canva, Microsoft Word</li>
-            <li>Frameworks/Libraries: jQuery, Tailwind CSS</li>
+            
             <li>Development & Collaboration Tools: GitHub, Visual Studio, Visual Studio Code</li>
         </ul>
     </div>
+    
 
     <!-- Soft Skills Section -->
     <div class="container mt-5">
@@ -178,6 +166,7 @@
         </ul>
     </div>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Shubham Pandey. All Rights Reserved.</p>
     </footer>
